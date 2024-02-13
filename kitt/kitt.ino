@@ -18,7 +18,7 @@ void loop() {
       digitalWrite(diodes[i], HIGH);
 
       Serial.print("Active port: ");
-      Serial.println(diodes[active]);
+      Serial.println(diodes[i]);
     }
     else {
       digitalWrite(diodes[i], LOW);
