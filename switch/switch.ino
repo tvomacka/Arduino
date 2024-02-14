@@ -31,10 +31,13 @@ void loop() {
   }
 
   lastSwitchState = switchState;
+  delay(100);
 }
 
 void switchStateChanged(int current, int last) {
-  if(current = LOW && last == HIGH) {
+  if(current == LOW && last == HIGH) {
     active = (active + 1) % diodeCount;
+    Serial.print("Active = ");
+    Serial.println(active);
   }
 }
