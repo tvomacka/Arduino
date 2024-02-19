@@ -1,3 +1,3 @@
-# Diode Blinking
+# KITT
 
  ![schema](kitt.png)
