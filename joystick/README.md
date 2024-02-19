@@ -1,0 +1,3 @@
+# Joystick
+
+ ![schema](joystick.png)
