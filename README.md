@@ -1,6 +1,10 @@
 # Arduino Projekty
 
-## Blikání diodami
+## Schémata Zapojení
+
+Schémata zapojení vytvářím pomocí online editoru [CircuitDiagram](https://www.circuit-diagram.org/editor/).
+
+## Seznam Projektů
 
  1. _diode_blinking_: Jednoduchá aplikace pro rozblikání jedné diody přes digitální output.
  1. _kitt_: Diody blikající postupně zleva doprava a zpátky, jako KITT v Knight Riderovi.
