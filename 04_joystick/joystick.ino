@@ -17,6 +17,8 @@ void setup() {
   pinMode(yDown, OUTPUT);
   pinMode(pressedLED, OUTPUT);
 
+  pinMode(pressedIn, INPUT);
+
   Serial.begin(9600);
 }
 
