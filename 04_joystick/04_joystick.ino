@@ -30,24 +30,24 @@ void loop() {
   digitalWrite(pressedLED, currentPressed);
   x = currentX - 512;
   if (x > 0) {
-    int xVal = map(x, 0, 512, 0, 1024);
+    int xVal = map(x, 0, 512, 0, 255);
     analogWrite(xRight, xVal);
     analogWrite(xLeft, 0);
   }
   else {
-    int xVal = map(x, -512, 0, 0, 1024);
+    int xVal = map(-x, 0, 512, 0, 255);
     analogWrite(xRight, 0);
     analogWrite(xLeft, xVal);
   }
 
   y = currentY - 512;
   if (y > 0) {
-    int yVal = map(y, 0, 512, 0, 1024);
+    int yVal = map(y, 0, 512, 0, 255);
     analogWrite(yUp, yVal);
     analogWrite(yDown, 0);
   }
   else {
-    int yVal = map(y, -512, 0, 0, 1024);
+    int yVal = map(-y, 0, 512, 0, 255);
     analogWrite(yUp, 0);
     analogWrite(yDown, yVal);
   }
