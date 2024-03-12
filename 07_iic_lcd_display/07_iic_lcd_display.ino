@@ -22,5 +22,5 @@ void loop() {
   lcd.setCursor(position, 1);
   lcd.print("*");
 
-  delay(100);
+  delay(200);
 }
