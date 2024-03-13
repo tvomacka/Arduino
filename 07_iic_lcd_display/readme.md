@@ -2,7 +2,7 @@
 
 ## Schéma
 
-...
+![schema](iic_lcd_display.png)
 
 ## Popis
 
