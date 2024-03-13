@@ -2,7 +2,8 @@
 
 ## Schéma
 
----
+![schema](gps_neo_6m.png)
+
 
 ## Popis
 
