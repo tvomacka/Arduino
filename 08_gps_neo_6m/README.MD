@@ -1,4 +1,4 @@
-# GPS NEO 6M
+# GPS NEO-6M
 
 ## Schéma
 
