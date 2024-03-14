@@ -10,7 +10,7 @@ const int gpxRX = 3;
 const int gpsTX = 4;
 
 LiquidCrystal_I2C lcd(0x27, lcd_cols, lcd_rows);
-void write_gps();
+void write_gps(float lat, float lon);
 bool check_gps_update(int duration);
 
 TinyGPS gps;
@@ -27,12 +27,27 @@ void setup() {
 }
 
 void loop() {
-  write_gps();
+  float lat, lon;
+  unsigned long dataAge;
+  if(check_gps_update(GPS_CHECK_LENGTH)) {
+    gps.f_get_position(&lat, &lon, &dataAge);
+    write_gps(lat, lon);
+  }
 
   delay(200);
 }
 
-void write_gps() {
+void write_gps(float lat, float lon) {
+  char latStr[17];
+  char lonStr[17];
+
+  sprintf(latStr, "lat:%10.7f", lat);
+  sprintf(lonStr, "lon:%10.7f", lon);
+  
+  lcd.setCursor(0, 0);
+  lcd.print(latStr);
+  lcd.setCursor(0, 1);
+  lcd.print(lonStr);
 }
 
 /**
