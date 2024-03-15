@@ -1,6 +1,8 @@
 # GSM
 
-## Sch0ma
+## Schéma
+
+***
 
 ## Popis
 
