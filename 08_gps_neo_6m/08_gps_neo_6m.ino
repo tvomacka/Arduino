@@ -9,6 +9,8 @@ const int lcd_rows = 2;
 const int gpxRX = 3;
 const int gpsTX = 4;
 
+const int GPS_CHECK_LENGTH = 1000;
+
 LiquidCrystal_I2C lcd(0x27, lcd_cols, lcd_rows);
 void write_gps(float lat, float lon);
 bool check_gps_update(int duration);
