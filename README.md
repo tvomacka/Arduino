@@ -11,6 +11,7 @@ Schémata zapojení vytvářím pomocí online editoru [CircuitDiagram](https://
  1. _switch_: Stisknutí tlačítka přepíná, jestli svítí zelená nebo červená dioda.
  1. _joystick_: joystick ovládá intenzitu svitu diod ve směru os x/y a další diodu po stisknutí.
  1. _pwm\_test_: jednoduchá testovací aplikace pro zkoušení PWM na digitálním výstupu.
- 2. _button\_debounce_: vylepšení responsivity tlačítka s nastavitelným chováním.
- 3. **\[incomplete\]** _iic\_lcd\_display_: test ovládání dvouřádkového LCD displeje přes I2C.
+ 2. **\[incomplete\]** _button\_debounce_: vylepšení responsivity tlačítka s nastavitelným chováním.
+ 3. _iic\_lcd\_display_: test ovládání dvouřádkového LCD displeje přes I2C.
  4. _gps\_poc_: zapojení GPS modulu a výpis souřadnic na LCD displej.
+ 5. _gsm_: připojení GSM modulu a posílání dat na webové rozhraní.
