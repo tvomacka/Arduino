@@ -6,7 +6,7 @@
 const int lcd_cols = 16;
 const int lcd_rows = 2;
 
-const int gpxRX = 3;
+const int gpsRX = 3;
 const int gpsTX = 4;
 
 const int GPS_CHECK_LENGTH = 1000;
