@@ -15,3 +15,8 @@ Schémata zapojení vytvářím pomocí online editoru [CircuitDiagram](https://
  3. _iic\_lcd\_display_: test ovládání dvouřádkového LCD displeje přes I2C.
  4. _gps\_neo\_6m_: zapojení GPS modulu a výpis souřadnic na LCD displej.
  5. _gsm_: připojení GSM modulu a posílání dat na webové rozhraní.
+
+## Nápady ke zpracování
+
+ 1. _DogTracker_: modul pro sledování pohybu psa pomocí GPS, data odesílá pomocí GSM na webový server, kde jsou zaneseny do db a uživatel je může sledovat historicky i real-time pomocí mobilní/webové aplikace.
+ 2. _GameFeeder_: automatické krmné zařízení. V daných časových intervalech rozsýpá krmení pro zvěř v lese.
