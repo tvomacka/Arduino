@@ -20,3 +20,4 @@ Schémata zapojení vytvářím pomocí online editoru [CircuitDiagram](https://
 
  1. _DogTracker_: modul pro sledování pohybu psa pomocí GPS, data odesílá pomocí GSM na webový server, kde jsou zaneseny do db a uživatel je může sledovat historicky i real-time pomocí mobilní/webové aplikace.
  2. _GameFeeder_: automatické krmné zařízení. V daných časových intervalech rozsýpá krmení pro zvěř v lese.
+ 3. _WaterTracker_: sledování hladiny dešťové vody ve studni.
