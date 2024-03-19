@@ -31,4 +31,4 @@ POZOR! Začínáme se setkávat s chybou nejnovějšího ovladače výrobce pře
 
 Setkali jsme se také s problémem, kdy přeinstalování starším ovladačem nefunguje, jedná se o problém ve spojení s Windows 11. Bohužel řešení v současnosti žádné není.
 
-Zdroj: [laskakit]([https://www.circuit-diagram.org/editor/](https://www.laskakit.cz/arduino-nano-r3--atmega328p-klon--pripajene-piny/)https://www.laskakit.cz/arduino-nano-r3--atmega328p-klon--pripajene-piny/)
+Zdroj: [laskakit](https://www.laskakit.cz/arduino-nano-r3--atmega328p-klon--pripajene-piny/)
