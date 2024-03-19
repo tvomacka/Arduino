@@ -27,7 +27,7 @@ Schémata zapojení vytvářím pomocí online editoru [CircuitDiagram](https://
 
 ### 2024-03-19: Problémy s ovladačem
 
-POZOR! Začínáme se setkávat s chybou nejnovějšího ovladače výrobce převodníku CH340, kdy se ovladač nainstaluje, COM port je ve správci zařízení také vidět, ale při pokusu o nahrání softwaru do desky končí nahrávání chybou can't set com-state for "\\.\COMx". Řešní je přeinstalovat aktuální ovladač starší verzí. Funkční verzi jsme přidali ke stažení do sekce Související soubory.
+POZOR! Začínáme se setkávat s chybou nejnovějšího ovladače výrobce převodníku CH340, kdy se ovladač nainstaluje, COM port je ve správci zařízení také vidět, ale při pokusu o nahrání softwaru do desky končí nahrávání chybou can't set com-state for "\\.\COMx". Řešní je přeinstalovat aktuální ovladač starší verzí. ~~Funkční verzi jsme přidali ke stažení do sekce Související soubory.~~ Ovladače jsou ve složce _\_drivers_.
 
 Setkali jsme se také s problémem, kdy přeinstalování starším ovladačem nefunguje, jedná se o problém ve spojení s Windows 11. Bohužel řešení v současnosti žádné není.
 
