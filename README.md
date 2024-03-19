@@ -22,3 +22,13 @@ Schémata zapojení vytvářím pomocí online editoru [CircuitDiagram](https://
  2. _GameFeeder_: automatické krmné zařízení. V daných časových intervalech rozsýpá krmení pro zvěř v lese.
  3. _WaterTracker_: sledování hladiny dešťové vody ve studni.
  4. _CamTrap_: fotopast. Sleduje okolí pomocí PIR senzoru (nebo jiného podobného) a když detekuje pohyb, udělá fotku, kterou odešle na mail.
+
+## Poznámky
+
+### 2024-03-19: Problémy s ovladačem
+
+POZOR! Začínáme se setkávat s chybou nejnovějšího ovladače výrobce převodníku CH340, kdy se ovladač nainstaluje, COM port je ve správci zařízení také vidět, ale při pokusu o nahrání softwaru do desky končí nahrávání chybou can't set com-state for "\\.\COMx". Řešní je přeinstalovat aktuální ovladač starší verzí. Funkční verzi jsme přidali ke stažení do sekce Související soubory.
+
+Setkali jsme se také s problémem, kdy přeinstalování starším ovladačem nefunguje, jedná se o problém ve spojení s Windows 11. Bohužel řešení v současnosti žádné není.
+
+Zdroj: [laskakit]([https://www.circuit-diagram.org/editor/](https://www.laskakit.cz/arduino-nano-r3--atmega328p-klon--pripajene-piny/)https://www.laskakit.cz/arduino-nano-r3--atmega328p-klon--pripajene-piny/)
